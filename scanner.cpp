@@ -50,7 +50,7 @@ Token getToken(const string& input, size_t& pos) {
     switch (input[pos]) {
         case '+': pos++; 
         return { ADDITION, "+" }; //accept + as addition
-        case '*':pos++;
+        case '*':
         case 'x': pos++; 
         return { MULTIPLICATION, "x" }; //accept x and * as multiply
         case '/': pos++; 
@@ -64,3 +64,4 @@ Token getToken(const string& input, size_t& pos) {
             return { UNKNOWN, string(1, input[pos++]) }; //accept anything else as unknown
     }
 }
+
