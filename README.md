@@ -16,6 +16,6 @@ Recognizes:
 - scanner.h – Declares the TokenType enum and Token structure.
 
 
- ##How to Compile and Run
+## How to Compile and Run
 g++ main.cpp scanner.cpp -o program
 ./program
