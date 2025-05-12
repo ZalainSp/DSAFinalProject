@@ -19,3 +19,5 @@ Recognizes:
 ## How to Compile and Run
 g++ main.cpp scanner.cpp -o program
 ./program
+
+https://youtu.be/Z51HmtaG0_o 
